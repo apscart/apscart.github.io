@@ -1,0 +1,343 @@
+html, body, h1, h2, h3, h4, ul, li {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+h1 img {
+	display: block;
+}
+img {
+	border: 0;
+}
+a {
+	color: #464544;
+}
+a:hover {
+	color: navy; 
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.more {
+	text-align: right; 
+}
+
+.more a {  color:navy; }
+
+.clear {
+	clear: both;
+}
+p {
+	line-height: 1.3em;
+}
+
+body {
+	background: #1f1422 url(/images/page_bg_b.jpg) repeat-x; 
+	text-align: center;
+	font: 16px Constantia, arial, sans-serif;
+	color: #c8ccd4;
+}
+
+/** layout **/
+#wrapper {
+	text-align: left;
+	width: 1000px;
+  	position: relative;
+  	margin: 20px auto; text-align: left;
+}
+
+h1 {
+  position: absolute;
+  top: 46px;
+  left: 0;
+  height: 43px;
+  padding-top: 8px;
+  width: 686px;
+  text-align: center;
+  background: #c8ccd4;
+  border-top: 1px solid #7A808C;
+  border-left: 1px solid #7A808C;
+  color: #04299f;
+  font: 26px constantia, arial, sans-serif;
+  font-weight: normal;
+}
+ #right-i p strong, #noticeme p strong {
+  	color: #04299f;
+	padding: 0px 3px 0px -3px;
+	font-size: 1.1em;
+	line-height: 1.3em;
+	background: AliceBlue;
+}
+h1 strong {
+  font-weight: normal;
+  color: #484e5e;
+}
+h2 {
+  color: darkblue;
+}
+#top-nav {
+  position: absolute;
+  top: 15px;
+  left: 686px;
+  width: 266px;
+  height: 269px;
+  background: #04299f bottom left url(images/header2.jpg) no-repeat;
+}
+#top-nav ul {
+  text-align: center;
+  line-height: 32px;
+}
+#top-nav li {
+  display: inline;
+  font-size: 16px;
+  color: #fff;
+}
+#top-nav a {
+  text-decoration: none;
+  font-weight: normal;
+  color: #fff;
+}
+#top-nav a:hover {
+  text-decoration: underline;
+}
+
+#vertical {
+  background: url(images/bluepoint.gif) no-repeat;
+  position: absolute;
+  top: 46px;
+  left: 952px;
+  width: 48px;
+  height: 238px;
+}
+#header {
+  background: url(images/header_bg.jpg) no-repeat;
+  position: absolute;
+  top: 89px;
+  left: 0px;
+  width: 686px;
+  height: 275px;
+}
+
+/** body **/
+#spacer {
+  height: 285px;
+}
+
+#body {
+  background: url(images/body_bg.gif) repeat-y;
+  width: 100%;
+  line-height: 1.4em;
+}
+
+#left {
+  float: left;
+  width: 684px;
+}
+#right {
+  float: right;
+  width: 305px;
+  line-height: 1.4em;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+
+#noticeme {
+  padding-bottom: 10px;
+  margin-top: 22px;
+  padding-right: 10px; 
+  background: white;
+  border: 1px solid silver;
+  padding: 10px; padding-top: 0px;
+}
+#noticeme a {
+  color: navy;
+}
+#noticeme {
+  color: navy;
+}
+#noticeme h3 {
+  color: black;
+  font-style: italic;
+  font: 18px constantia, arial, sans-serif;
+  letter-spacing: 4px;
+  background: silver;
+  width: 400px;
+  border: 1px solid #b1b6bf;
+  border-left: 0px;
+  margin-left: -20px;
+  padding: 5px;
+  padding-left: 20px;
+  margin-right: -15px;
+  margin-top: -1px;
+}
+#noticeme p {
+  text-align: justify;
+}
+
+
+#right-i {
+  padding: 4px 25px 0 20px;
+}
+#right h2 {
+  color: #04299f;
+  font: 24px constantia, arial, sans-serif;
+  margin-bottom: 12px;
+}
+#right h3 {
+  color: #04299f;
+  font: 16px constantia, arial, sans-serif;
+  margin-bottom: 5px;
+}
+#right p {
+  margin-top: 0;
+  color: #163348;
+}
+#right .left {
+  margin-right: 4px;
+}
+#right a {
+  color: #04299f;
+  font-weight: bold;
+  text-decoration: none;
+}
+#right a:hover {
+  color: #163348;
+  text-decoration: underline;
+}
+#right ul {
+  color: black;
+}
+/** footer **/
+#copyright {	
+  background:LightSteelBlue;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  float: right;
+  width: 315px;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+#copyright p {
+  margin: 0;
+  padding: 0;
+}
+.warning {
+	background: white;
+	color: blue;
+	font-style: italic;
+	font-size: 1.2em;
+}
+.aboutus, #subs .aboutus {
+	width: 925px;
+}
+#subs .aboutus{
+	margin-top: 0px;  
+	width: 935px;
+	background: url(images/aboutus_bg.jpg);
+	color: black;
+}
+#subs .aboutus h3{
+	width: 675px;
+}
+#subs .aboutus{
+	width: 735px;
+	background: url(images/aboutus_bg.jpg);
+}
+
+
+/*  Form CSS */
+
+	#thisform {
+		background: white;
+		padding: 10px;
+	/*	width: 500px; */
+		margin: 0px auto;
+		line-height: 30px;
+	}
+	#thisform blockquote {
+		margin: 5px 0px 5px 30px; 
+	}
+		.textfield_effect {
+		/*we will first set the border styles.*/
+		border-width: 1px;
+		border-style: solid;
+		border-color: silver;
+		/*we are now going to add in the shadow image that we created earlier*/
+		background-image: url(/images/fieldshadow.gif);
+		background-repeat: repeat-x;
+		/*I am going to add some text formatting of my own*/
+		font-family: Constantia, Arial, Helvetica, sans-serif;
+		font-size: 16px;
+		color: #333333;
+		width: 200px;
+		height: 20px;
+	}
+	/*we are now going to style how the textfield will look when we
+	hover over it and when we actually have it selected*/
+	.textfield_effect:hover {
+		border-color: #3d4559;
+		border-width: 1px;
+	}
+	
+	.textfield_effect:focus {
+		border-color: #3d4559;
+		border-width: 1px;
+	}
+	
+	fieldset {
+		width: 550px;
+		/*height: 600px;*/
+		border-style: solid;
+		border-width: 1px;
+		border-color: gray;
+		border-style: solid;
+		margin-left: 30px;
+		background-color: white;
+	}
+	
+	fieldset h2 {
+		font-size: 18px;
+		border-bottom: 1px dotted silver;
+		margin-bottom: 10px;
+		width: 300px;
+	}
+	
+	fieldset:hover {
+		border-color: #3d4559;
+		border-width: 2px;
+		border-style: solid;
+	}
+	legend {
+		font-size: 27px;
+		color: #3d4559;
+		font-weight: bold;
+	}
+
+	#heading {
+	background-image: url('/images/headerimgba.jpg'); background-repeat: no-repeat; height: 328px; text-align: right; letter-spacing: 2px; font-size: 12px; background-position: center bottom; 
+	}
+	#heading p { padding-right: 20px; position: absolute; right: 10px;  top: 32px;}
+	#menu a { color: #6d7481; font-size: 1.25em; padding: 3px; text-decoration: none; font-style: italic;}
+	#menu a:hover { color: #000000; font-size: 1.25em;  background: #e9ecf0;	}
+	#submenu { background-image: url('/images/submenuback.jpg'); background-repeat: x-repeat; height: 25px; padding-left: 20px; padding-top: 5px; padding-bottom: 8px; margin-top: -10px; color: black; border-top: 1px solid black;}
+	#content { border: 1px solid LightSteelBlue; background-color: #f4f9fe; padding: 20px; color: black; border-right: 2px solid LightSteelBlue; border-bottom: 2px solid LightSteelBlue; text-align: left;}
+	#content video { width: 600px; overflow: hidden; }
+	#right { background-color: #e6e9ec; border: 2px dotted gray; padding: 10px; position: relative; top: 10px;  margin-left: 20px;}
+	#content ul { list-style-type: cirlces; margin-left: 30px;}
+	#content li { margin-top: 8px; }
+	#submenu a { color: #666c6f; letter-spacing: 2px; font-size: 1em; padding: 3px; text-decoration: none; font-style: italic; }
+	#right h2 { color: black; }
+	#submenu ul {
+	list-style-type: none; 
+	}
+	#submenu li {  padding: 8px; display: inline; border-right: 1px solid gray; padding-bottom: 4px; }
+	#submenu li:hover { background: white; padding-bottom: 2px;  }
+	#submenu li a:hover { color: black;  }
+	
+	.link {color: #04299f; font-weight: 700; text-decoration: none; font-style: italic; }
+

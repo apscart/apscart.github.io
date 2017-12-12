@@ -1,0 +1,8 @@
+#wrapper { zoom:1; }
+	#submenu ul {
+		zoom: 1 ; 
+	}
+	#submenu li { zoom: 1 ; padding-top: 0px;  }
+
+	#heading p {  top: 42px;}
+
